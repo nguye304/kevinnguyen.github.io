@@ -12,6 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/header.css" rel = "stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -49,82 +50,117 @@
             <a class="nav-link js-scroll-trigger" href="#portfolio">Personal Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">School Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#school">School Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">About me</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+            <a class="nav-link js-scroll-trigger" href="#team">Contact Me</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Header -->
-  <!--<header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Hello! My name is</div>
-        <div class="intro-heading text-uppercase">Kevin Nguyen</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Learn more</a>
-      </div>
-    </div>
-  </header>-->
+
   <header>
-    <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
-    </video>
-    <div class="container h-100 overlay">
-      <div class="d-flex h-100 text-center align-items-center">
-        <div class="w-100 text-black">
-          <h1 class="display-3">Hi! My name is Kevin</h1>
-          <p class="lead mb-0">I'm an aspiring SDE.</p>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-1" style = "color: white">Welcome </h1>
+            <h1 class = "display-3" style = "color:antiquewhite"> I'm Kevin!</h1>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
+    
+    <section class="bg-light" id="team">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3 class="section-subheading text-muted">This is my website!</h3>
+              <h2 class="section-heading text-uppercase">and this is me</h2>
+           
+            </div>
+          </div>
+            <div class="col-sm-4" style ="margin:0 auto">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/kevin1.jpg" alt="">
+                <h4>Kevin Nguyen</h4>
+                <p class="text-muted"></p>
+                <ul class="list-inline social-buttons">
+                  <li class="list-inline-item">
+                    <a href="https://github.com/nguye304">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.facebook.com/kevin.nguyen.98">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/kevin-nguyen-508637123/">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <p class="large ">I'm an aspiring Software Development Engineer who loves technology!</p>
+              <p class="large">I enjoy video games, programming and animals.</p>
+              <a href = "https://github.com/nguye304" style = "color:blue">Link to my Github!</a>
+            </div>
+          </div>
+        </div>
+      </section>
+   
   <!-- Services -->
-  <section id="services">
+  <section class = "bg-dark" id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">What I'm interested in</h2>
-          <h3 class="section-subheading text-muted">These are currently the topics I am actively learning.</h3>
+          <h2 class="section-heading text-uppercase" style="color:white">What I'm interested in</h2>
+          <h3 class="section-subheading text-muted" style="color:white">These are currently the topics I am actively learning.</h3>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Mobile Development</h4>
-          <p class="text-muted">I am interested in mobile development. I am currently focused on Android Development w/Kotlin but plan on one day learning iOS development also.I have also tried developing Cross-Platform applications with Xamarin Forms and C#!</p>
+          <h4 class="service-heading" style="color:white" >Mobile Development</h4>
+          <p class="text-muted"  >I am interested in mobile development. I am currently focused on Android Development w/Kotlin but plan on one day learning iOS development also.I have also tried developing Cross-Platform applications with Xamarin Forms and C#!</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Virtual Reality</h4>
+          <h4 class="service-heading" style="color:white" >Virtual Reality</h4>
           <p class="text-muted">I have an interested in Virtual Reality. I plan on one day figuring out how to create VR experiences. My only experience with VR currently is through WebVR via Aframe and Unity3D game engine.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Web Development</h4>
-          <p class="text-muted">I have an interest in web development. If i had to decide which is more interesting to me, I would choose backend development. I think PHP, MySQL and Nodejs are all fun to figure out. I have made an API to use with my mobile app and worked with AWS to learn more about them.</p>
+          <h4 class="service-heading" style="color:white" >Web Development</h4>
+          <p class="text-muted">I have an interest in web development. I am currently learning about APIs and how to use them and implement one. I plan on learning React.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Portfolio Grid -->
+  <!-- Personal Portfolio Grid -->
   <section class="bg-light" id="portfolio">
     <div class="container">
       <div class="row">
@@ -141,7 +177,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/kevin2.jpg" alt="">
+                <img class="img-fluid" src="img/finesse.jpg" alt="">   
           </a>
           <div class="portfolio-caption">
             <h4>Finesse Nails</h4>
@@ -149,17 +185,17 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/ana1.jpg" alt="">
+                <img class="img-fluid" src="img/horror.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Anime Discovery</h4>
-            <p class="text-muted">Mobile App</p>
+            <h4>1st Person Horror Game</h4>
+            <p class="text-muted">Video Game</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -169,11 +205,11 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/ana2.jpg" alt="">
+              <img class="img-fluid" src="img/music.jpg" alt="">  
           </a>
           <div class="portfolio-caption">
             <h4>Music Player</h4>
-            <p class="text-muted">Mobile App</p>
+            <p class="text-muted">Kotlin Android Mobile App</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -183,11 +219,34 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/ana1.jpg" alt="">
+          </a>
+          
+  </section>
+
+  <!-- School Projects-->
+  <div id = "school"></div>
+  <section class="bg-dark" id="portfolio">
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase " style="color:white">School Projects</h2>
+          <h3 class="section-subheading text-muted">These are some projects I made for during my classes in teams or solo.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/protectbubble.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Protect My Bubble Game</h4>
-            <p class="text-muted">3D Game</p>
+            <h4>Protect My Bubble</h4>
+            <p class="text-muted">Game</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -197,7 +256,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/ana2.jpg" alt="">
+            <img class="img-fluid" src="img/recipeas.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Recipeas</h4>
@@ -211,27 +270,25 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/kevin1.jpg" alt="">
+            <img class="img-fluid" src="img/studentexchange.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Student Exchange</h4>
             <p class="text-muted">Website</p>
           </div>
         </div>
-      </div>
-    </div>
+     </a>
+          
   </section>
 
+
+  <!----------->
+
   <!-- About -->
-  <section id="about">
+  <section class = "bg-light" id="about">
       <div class="wow fadeInUp">
         <div class = 'wrapper'>
           <div class="container">  
-            <!--
-              <div class="img">
-                <img src="img/ana1.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-              </div>-->
               <div class="col-lg-12 text-center">
                   <h2 class="section-heading text-uppercase">About Me</h2>
                   <h3 class="section-subheading text-muted"></h3>
@@ -255,10 +312,13 @@
                       <li>mySQL</li>
                       <li>AWS</li>
                       <li>git</li>
-                      <li>Project Management</li>
+                      <li>Project Management</li>     
+                      <li>Agile Team leadership & Scrums</li>
                       <li>Unity Game Engine</li>
                       <li>Android Studio</li>
                       <li>Xamarin</li>
+                      <li>Microsoft Azure</li>
+                      <li>Adobe Photoshop & Premiere</li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item text-center">
@@ -279,47 +339,7 @@
     </div>
   </section>
 
-  <!-- Team -->
-
-  <section class="bg-light" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">KEVIN NGUYEN</h2>
-          <h3 class="section-subheading text-muted">It's me. Contact me!</h3>
-        </div>
-      </div>
-        <div class="col-sm-4" style ="margin:0 auto">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/ana1.jpg" alt="">
-            <h4>Kevin Nguyen</h4>
-            <p class="text-muted">This is me.</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Thanks for learning more about me and checking out my website.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
 
   <!-- Contact -->
@@ -328,7 +348,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Me</h2>
-          <h3 class="section-subheading text-muted">Shoot me an Email! Ask for a resume!</h3>
+          <h3 class="section-subheading text-muted">Send an Email! Ask for a resume!</h3>
         </div>
       </div>
       <div class="row">
@@ -372,7 +392,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; Kevin's Website 2019</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
@@ -425,7 +445,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Finesse Nais</h2>
                 <p class="item-intro text-muted">Mobile App developed with Xamarin Forms</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/finesse.jpg" alt="finesse.jpg">
                 <p>I developed this mobile app for my Mom's nail salon. It uses Xamarin in order to be cross platform. It allows users to access information about the employees, prices, hours, and location. It also allows users to make reservations with employees. This app gets its data from a mySQL database. I used AWS to set up the database and developed an API for the app to access it. The API was developed using Node.js.</p>
                 <ul class="list-inline">
                   <li>Date: January 2019</li>
@@ -459,7 +479,10 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Anime Discovery App</h2>
                 <p class="item-intro text-muted">Mobile App developed using Kotlin & Android Studio.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                <div class ="kevinimg">
+                  <img class="img-fluid d-block mx-auto" src="img/animediscovery.jpg" alt="anime.jpg">
+                </div>
+                
                 <p>I had a problem of trying to find new anime to watch so I used Kotlin make an android app. It uses a free unofficial myanimelist API and acts alot like tinder where you swipe right to add the anime to your "to-watch" list and swipe left to ignore. If the user clicks on the image, they can access more information about the anime. It also allows users to access their lists which are stored on a mysql database on AWS. </p>
                 <ul class="list-inline">
                   <li>Date: February 2019</li>
@@ -492,13 +515,13 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Music Player</h2>
-                <p class="item-intro text-muted">Java Application</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>I made this app with my friend Charles Navera. It plays songs but also shows the lyrics.</p>
+                <p class="item-intro text-muted">Kotlin Android Application</p>
+                <img class="img-fluid d-block mx-auto" src="img/music.jpg" alt="">
+                <p>I made this app with while learning Kotlin. It accesses the phone's storage in order to find mp3 files. It then takes those files and places it into a listview that allows users to play songs from their phone!</p>
                 <ul class="list-inline">
-                  <li>Date: June 2019</li>
-                  <li>Client: Kevin Nguyen & Charles Navera</li>
-                  <li>Category: Java Application</li>
+                  <li>Date: December 2018</li>
+                  <li>Client: Kevin Nguyen</li>
+                  <li>Category: Kotlin Application</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -527,7 +550,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Protect My Bubble</h2>
                 <p class="item-intro text-muted">3D Tower Defense game using Unity3D game engine</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/protectbubble.jpg" alt="protect.jpg">
                 <p>This game was developed using Unity3D with a group of 6. It is a 3D Tower defense with multiple levels and increasing difficulties. I was responsible for Project Management and the 3D modeling. I created the models using Blender. C# was used for the scripting and game logic.  </p>
                 <ul class="list-inline">
                   <li>Date: May 2018</li>
@@ -561,7 +584,11 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Recipeas</h2>
                 <p class="item-intro text-muted">Mobile App developed with Xamarin Forms</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                <!--<img class="img-fluid d-block mx-auto" src="img/recipeas.jpg" alt="recipeapp.jpg">-->
+                <video width = "320" height = "240" controls>
+                  <source src = "video/recipeas.mp4" type = "video/mp4">
+                    Your browser does not support the video tag.
+                </video>
                 <p>This was a school project developed for my Mobile Programming course. I developed it within a team of 3. It is a simple recipe mobile app that has recipes for food and cocktails. It uses 2 free APIs and has login functionality, user account creation and analytics implemented. </p>
                 <ul class="list-inline">
                   <li>Date: December 2018</li>
@@ -595,7 +622,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Student Exchange</h2>
                 <p class="item-intro text-muted">Website developed using HTML, CSS, JS, and PHP</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/studentexchange.jpg" alt="studentexchange.jpg">
                 <p>This was a school project developed for a Web Development Course. It is an amazon/craigslist clone that allows students to sell and trade their things. It uses HTML, CSS, Javascript and Bootstrap for the front end. The backend uses PHP and SQLi. This website allows users to create personal accounts, browse items and access their shopping cart. I was responsible for the development of the profile page and shopping cart. The profile page will change according to who is logged in using SESSIONS and will have the items the user is selling. The shopping cart shows what is currently in the user's shopping cart and will calculate the total. </p>
                 <ul class="list-inline">
                   <li>Date: December 2018</li>
@@ -613,6 +640,40 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal 7 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">My First Horror Game</h2>
+                  <p class="item-intro text-muted">1st Person Horror game using Unity3D game engine</p>
+                  <img class="img-fluid d-block mx-auto" src="img/horror.jpg" alt="horror.jpg">
+                  <p>This game started off as my midterm for Game Programming. But I went back to added more features and improved the game. It's a simple 3D horror game where you wander around avoiding eyeball monsters. C# was used for the scripting and game logic.  </p>
+                  <ul class="list-inline">
+                    <li>Date: May 2018</li>
+                    <li>Client: Kevin Nguyen</li>
+                    <li>Category: Video Game</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
